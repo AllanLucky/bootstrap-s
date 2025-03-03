@@ -1,0 +1,37 @@
+/* Custom styles for the sidebar */
+.sidebar {
+    height: 100vh; /* Full viewport height for the sidebar */
+    overflow-y: scroll; /* Always show vertical scroll */
+    padding-right: 10px; /* Add a small padding for better appearance */
+    background-color: #343a40; /* Sidebar background color */
+    white-space: nowrap; /* Prevent list items from wrapping to enable horizontal scrolling */
+}
+
+.sidebar .list-group-item {
+    background-color: #343a40; /* Dark background similar to navbar */
+    color: white; /* White text */
+    border: none; /* Remove default borders */
+    padding: 10px 20px; /* Adjust padding for better spacing */
+    white-space: nowrap; /* Prevent text from wrapping */
+    display: inline-block; /* Ensure list items are inline-block for horizontal scrolling */
+}
+
+.sidebar .list-group-item:hover {
+    background-color: #495057; /* Slightly lighter dark on hover */
+    cursor: pointer; /* Pointer cursor on hover */
+}
+
+/* Scrollbar customization (optional) */
+.sidebar::-webkit-scrollbar {
+    width: 8px; /* Width of the scrollbar */
+    height: 8px; /* Height of the horizontal scrollbar */
+}
+
+.sidebar::-webkit-scrollbar-track {
+    background-color: #343a40; /* Track background color matches the sidebar */
+}
+
+
+
+
+
