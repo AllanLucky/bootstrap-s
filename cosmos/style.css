@@ -1,0 +1,15 @@
+.sidebar{
+    background-color:lightgray;
+    min-height: 85vh;
+    border-right: 1px solid gray;
+    border-left: 1px solid #ddd;
+
+}
+
+.ul li{
+    background-color: aqua;
+}
+
+ .list-group{
+    background-color: black;
+ }
