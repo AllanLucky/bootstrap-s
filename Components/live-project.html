@@ -52,17 +52,55 @@
     </div>
 
     <div class="container">
-        <div class=" bg-light p-5 rounded">
-
-            <h2>Application Table</h2>
-
+        <div class="bg-light">
+            <div class="row">
+                <div class="col-4">
+                    <div class="card">
+                        <div class="card-body">
+                          <h5 class="card-title">Spending</h5>
+                          <p class="card-text"> 10 Million</p>
+                        </div>
+                      </div>
+                </div>
+                <div class="col-4">
+                    <div class="card">
+                        <div class="card-body">
+                          <h5 class="card-title">Spending</h5>
+                          <p class="card-text"> 10 Million</p>
+                        </div>
+                      </div>
+                </div>
+                <div class="col-4">
+                    <div class="card">
+                        <div class="card-body">
+                          <h5 class="card-title">Spending</h5>
+                          <p class="card-text"> 10 Million</p>
+                        </div>
+                      </div>
+                </div>
+            </div>
+        </div>
+        <div class="bg-light mt-3 mb-2">
+            <div class="row">
+                <div class="col-4">
+                    <h2>Application</h2>
+                </div>
+                <div class="col-8">
+                    <!-- Add Records button aligned to the right -->
+                    <div class="d-flex justify-content-end">
+                        <button type="button" class="btn btn-success">Add Application</button>
+                    </div>
+                </div>
+            </div>
             <table class="table">
                 <thead>
                   <tr>
-                    <th scope="col">#</th>
+                    <th scope="col">Action</th>
                     <th scope="col">First</th>
                     <th scope="col">Last</th>
                     <th scope="col">Handle</th>
+                    <th scope="col">Payments</th>
+                    <th scope="col">Status</th>
                   </tr>
                 </thead>
                 <tbody>
@@ -71,17 +109,40 @@
                     <td>Mark</td>
                     <td>Otto</td>
                     <td>@mdo</td>
+                    <td>Sh:50000</td>
+                    <td>pending</td>
                   </tr>
                   <tr>
                     <th scope="row">2</th>
-                    <td>Jacob</td>
-                    <td>Thornton</td>
-                    <td>@fat</td>
+                    <td>Akoko</td>
+                    <td>Nonda</td>
+                    <td>Shehe</td>
+                    <td>Sh:80000</td>
+                    <td>Received</td>
                   </tr>
                   <tr>
                     <th scope="row">3</th>
-                    <td colspan="2">Larry the Bird</td>
-                    <td>@twitter</td>
+                    <td>Jackson </td>
+                    <td>Tsor</td>
+                    <td>Ochieng</td>
+                    <td>Sh:90000</td>
+                    <td>pending</td>
+                  </tr>
+                  <tr>
+                    <th scope="row">4</th>
+                    <td>Akoko</td>
+                    <td>Nonda</td>
+                    <td>Shehe</td>
+                    <td>Sh:80000</td>
+                    <td>Received</td>
+                  </tr>
+                  <tr>
+                    <th scope="row">5</th>
+                    <td>Mark</td>
+                    <td>Onyango</td>
+                    <td>Ombita</td>
+                    <td>Sh:120000</td>
+                    <td>Received</td>
                   </tr>
                 </tbody>
               </table>
